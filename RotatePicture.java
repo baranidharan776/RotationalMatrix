@@ -1,11 +1,6 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+
 import java.util.Scanner;
 
-/**
- * Created by gbs04325 on 29/06/2018.
- */
 public class RotatePicture {
 
     private static void transpose(int[][] m) {
