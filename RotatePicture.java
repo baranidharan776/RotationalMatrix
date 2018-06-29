@@ -38,14 +38,17 @@ public class RotatePicture {
     }
     public static void printMatrix(int[][] matrix, int matrixRow, int matrixCol){
         System.out.println("Your Matrix is : ");
+        System.out.print("[");
         for (int i = 0; i < matrixRow; i++)
         {
+            System.out.print("{");
             for (int j = 0; j < matrixCol; j++)
             {
-                System.out.print(matrix[i][j]+"\t");
+                System.out.print(matrix[i][j]+" ");
             }
-            System.out.println();
+            System.out.print("}");
         }
+        System.out.print("]");
     }
     public static void main(String[] args) {
         Scanner scan = new Scanner(System. in);
